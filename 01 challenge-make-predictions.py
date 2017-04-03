@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from sklearn import linear_model
 from sklearn.metrics import accuracy_score
 
-X,y = np.loadtxt('linear_regression_demo-master/challenge_dataset.txt',
+X,y = np.loadtxt('challenge_dataset.txt',
                   delimiter=',', unpack=True)
 X = X.reshape((-1, 1))
 y = y.reshape((-1, 1))
